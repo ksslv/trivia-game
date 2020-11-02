@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./trivia.css">
+    <title>Tandem Trivia Game</title>
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <div>
+          <div class="top">
+            <span class="count" id="question-counter">Question x / 10</span>
+            <spa style="padding:1rem 1rem 1rem 1rem ">&#9632;</span>
+            <span class="count" id="score">Score x / 10</span>
+          </div>
+
+        </div>
+
+        <!-- question -->
+        <div id="question">Question will appear here</div>
+
+        <!-- answers -->
+        <div class="answer-container"> 
+        <div>
+          <p class="answer-text" id="option-A">Answer 1</p>
+        </div>
+        <div>
+          <p class="answer-text" id="option-B">Answer 2</p>
+        </div>
+        <div>
+          <p class="answer-text" id="option-C">Answer 3</p>
+        </div>
+        <div>
+          <p class="answer-text" id="option-D">Answer 4</p>
+        </div>
+        </div>
+
+        <div style="text-align: center;">        
+            <button class="next-btn" aria-label="Next Question">Next Question</button>
+        </div>
+
+      </div>
+
+      <!-- modal -->
+      <div class="modal">
+        <div class="modal-inner">
+              <div>GAME OVER!</div>
+              <p id="final-score">Show score here</p>
+        <div style="text-align: center;">
+            <button class="play-new-btn">Play New Game</button>
+        </div>
+        
+        </div>
+      </div>
+    </div>
+
+    <script src="trivia.js"></script>
+  </body>
+</html>
