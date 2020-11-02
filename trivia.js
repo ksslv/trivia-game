@@ -220,7 +220,6 @@ newGameButton.addEventListener("click", playGame);
 /**
  * @desc handles click on an answer, both correct and incorrect
  */
-// function handleAnswerClick(e) {
 handleAnswerClick = (e) => {
   if (clicked) return;
 
