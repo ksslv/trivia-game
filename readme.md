@@ -2,6 +2,8 @@
 
 A simple browser-based game of trivia.
 
+![Alt Text](./images/trivia.gif)
+
 Assumptions:
 
 - Each game round has 10 questions
